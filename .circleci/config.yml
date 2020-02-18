@@ -9,7 +9,6 @@ workflows:
   scan-image:
     jobs:
       - portshiftscanner/scan-image:
-          context: myContext
           image_name: 'myrepo/myimage'
           image_tag: 'tag'
           access_key: 'key'
